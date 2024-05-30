@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #282828;
+    padding: 50px;
+    color: white;
+}
+
+.head-office span{
+    margin-left: 10px;
+    
+}
+.head-office h3
+{
+    margin:15px 0px;
+    
+}
+.three-parts{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    border-bottom: 1px solid white;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+footer a{
+text-decoration: none;
+color: white;
+}
+.head-office p{
+    margin-top: 15px;
+}
+.part2,
+.part3{
+    margin-top: 25px;
+}
+.three-parts ul{
+list-style: none;
+}
+.three-parts ul li{
+margin-bottom: 5px;
+
+}
+
+.icon-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-footer h4{
+  margin-bottom: 15px;
+}
+.iconf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.iconf .iconf1{
+ width: 40px;
+ height: 40px;
+
+}
+.head-office {
+    padding-top: 90px;
+}
+
+.head-office .copy-right{
+    padding: 35px 10px 0px 0px;
+}
+.font-iconf{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.iconf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.iconf1{
+    width: 25px ;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    transition: 0.5s;
+    
+}
+.iconf1:hover .font-iconf {
+    color: #ffffff !important;
+        
+    }
+    .iconf1:hover  {
+    
+        background-color: #282828;
+        cursor: pointer;
+    }
+     .three-parts .cont,
+     .icon-footer,
+     .head-office{
+        margin: 20px 10px;
+    }
+@media(max-width:992px){
+    .three-parts .cont{
+text-align: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+    }
+    .head-office {
+     text-align: center;
+    }
+    footer {
+
+        justify-content: center;
+ 
+    }
+    footer{
+
+        padding: 10px;
+      
+    }
+    .three-parts {
+        justify-content: center;
+
+    }
+}
